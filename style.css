@@ -1,0 +1,92 @@
+*{
+    font-family: "inter";
+    margin: 0px;
+    
+}
+#cabeçalho{
+    background-color: #303030;
+    padding: 100px 0px 100px 75px;
+    color: #FFFFFF;
+}
+
+#Titulocabeçalho{
+    font-size: 60px;
+}
+
+#subtitulocabeçalho{
+    font-size: 20px;
+}
+
+#menuinformativo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F9F9F9;
+    padding-bottom: 75px;
+} 
+
+.numero{
+    margin: 75px 0px 0px 150px;
+    font-size: 40px;
+    font-weight: bolder;
+} 
+
+.frase{
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+#SeçãoFoto{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 100px 0px 100px 100px;
+    color: #000000;
+    align-items: center;
+}
+
+#titulofoto{
+    font-size: 40px;
+}
+
+#textofoto{
+    font-size: 24px;
+}
+
+#seçãodecaptura{
+    background-color: #303030;
+    padding: 50px 0px 100px 100px;
+    align-items: center;
+    text-align: center;
+}
+
+#titulodacaptura{
+    color: white;
+    font-size: 32px;
+}
+
+input{
+    padding:  25px 200px 25px 30px;
+    border-radius: 15px;
+    font-size: 24px;
+    font-family: "Raleway";
+    margin: 40px 0px 20px 0px; 
+}
+
+#botaofaleconosco{
+    color:white;
+    background-color:  #C07212 ;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 15px 45px 15px 45px;
+    border: 0px;
+    border-radius: 10px;
+    font-family: "Raleway";
+    margin-top: 50px;
+}
+
+button:hover{
+    translate: translatey(-7);
+    box-shadow: 0px 25px 25px 0px #1f1101 ;
+    animation-duration: 0,5s;
+}
